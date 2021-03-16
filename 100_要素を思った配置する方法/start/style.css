@@ -42,6 +42,7 @@
 /* インライン要素に対して */
 .parent {
   text-align: center;
+  letter-spacing: -2px;
 }
 
 .child {
