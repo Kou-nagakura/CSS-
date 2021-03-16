@@ -79,14 +79,20 @@
 //   align-items: center;
 // }
 
-.parent {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
+// .parent {
+//   display: flex;
+//   justify-content: center;
+//   align-items: flex-start;
+// }
+
+// .parent {
+//   display: flex;
+//   justify-content: center;
+//   align-items: flex-end;
+// }
 
 .parent {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-end;
 }
