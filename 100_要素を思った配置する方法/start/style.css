@@ -15,6 +15,9 @@
 
 .child.v2 {
   background-color: palevioletred;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
 }
 
 .child.v3 {
