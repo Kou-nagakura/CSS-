@@ -97,8 +97,15 @@
 //   align-items: flex-end;
 // }
 
+// .parent {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: flex-end;
+// }
+
 .parent {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
 }
