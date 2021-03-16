@@ -58,9 +58,17 @@
 //   transform: translate(-50%, -50%);
 // }
 
+// .parent {
+//   display: flex;
+//   justify-content: flex-start;
+// }
+
+// .parent {
+//   display: flex;
+//   justify-content: flex-end;
+// }
+
 .parent {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-content: center;
 }
