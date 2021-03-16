@@ -103,9 +103,16 @@
 //   align-items: flex-end;
 // }
 
+// .parent {
+//   display: flex;
+//   flex-direction: column;//縦か横に変更
+//   justify-content: space-between;//隙間の間隔
+//   align-items: flex-start;//左右配置
+// }
+
 .parent {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
+  flex-direction: column;//縦か横に変更
+  justify-content: center;//隙間の間隔
+  align-items: flex-start;//左右配置
 }
