@@ -13,6 +13,11 @@
           flex-grow: 1;
 }
 
+.child.v1 {
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
+}
+
 .child.v2 {
   background-color: palevioletred;
   -webkit-box-flex: 2;
@@ -21,7 +26,7 @@
 }
 
 .child.v3 {
-  background-color: rebeccapurple;
+  background-color: #663399;
   -webkit-box-flex: 3;
       -ms-flex-positive: 3;
           flex-grow: 3;
@@ -48,12 +53,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */
